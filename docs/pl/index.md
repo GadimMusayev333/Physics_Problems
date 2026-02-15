@@ -1,62 +1,57 @@
-# Interaktywny Zeszyt Ćwiczeń
+# Notatnik z Fizyki
 
-Witaj w repozytorium **Math Problems**. Projekt ten służy jako szablon cyfrowego zeszytu, który ma stanowić Twoje główne narzędzie pracy przez cały okres trwania kursu.
+Witaj w repozytorium **Podstawowe Problemy z Fizyki**. Ten projekt został zaprojektowany jako kompleksowy szablon Twojego osobistego cyfrowego notatnika, który ma Ci towarzyszyć przez cały kurs.
 
-Repozytorium jest dwujęzyczne i zaprojektowane w sposób umożliwiający budowę własnej bazy wiedzy w oparciu o system kontroli wersji.
+To repozytorium jest dwujęzyczne (angielski/polski) i zorganizowane tak, aby ułatwić tworzenie spersonalizowanej bazy wiedzy przy użyciu przepływu pracy **Fork & Clone**.
 
-## Metodyka pracy
+## Przepływ pracy i metodyka
 
-Aby poprawnie korzystać z udostępnionych materiałów, należy postępować zgodnie z poniższą procedurą:
+Aby efektywnie korzystać z tego materiału, postępuj zgodnie z poniższą procedurą:
 
-1.  **Forkowanie Repozytorium**:
-    * Przejdź do repozytorium źródłowego: **[https://github.com/dchorazkiewicz/Physics_Problems_Repo](https://github.com/dchorazkiewicz/Physics_Problems_Repo)**
-    * Utwórz własną kopię materiałów, używając przycisku `Fork` w serwisie GitHub.
-2.  **Klonowanie**: Pobierz repozytorium na swój komputer lokalny.
-3.  **Tworzenie Dokumentacji**:
-    * Listy zadań znajdują się w odpowiednich działach w menu.
-    * Do każdego pliku z zadaniami (np. `01_macierze.md`) przypisany jest dedykowany katalog na rozwiązania (np. `solution_01_macierze/`).
-    * Katalogi te są Twoją **przestrzenią roboczą**. Należy w nich tworzyć pliki Markdown zawierające rozwiązania, dowody oraz notatki teoretyczne.
-4.  **Utrwalanie zmian**: Regularnie przesyłaj swoje rozwiązania na serwer (Commit & Push).
+1.  **Sforkuj (Fork) to repozytorium**:
+    * Przejdź do repozytorium źródłowego: **[Physics_Problems](https://github.com/nowitens/Physics_Problems)**
+    * Utwórz swoją prywatną kopię, używając przycisku `Fork` na GitHubie.
+2.  **Sklonuj lokalnie**:
+    * Sklonuj swoje sforkowane repozytorium na lokalną maszynę.
+3.  **Dokumentuj rozwiązania**:
+    * Przeglądaj listy zadań.
+    * Znajdź sekcje `Your Solutions` (oraz `Twoje Rozwiązania`) w menu. Te katalogi to Twoje dedykowane **przestrzenie robocze**.
+    * Twórz w nich pliki Markdown, aby przechowywać swoje rozwiązania, dowody i notatki teoretyczne.
+4.  **Kontrola wersji**:
+    * Regularnie commituj (zatwierdzaj) i pushuj (wysyłaj) swoją pracę do repozytorium GitHub, aby zapewnić trwałość danych.
 
 ## Rola notatek w przygotowaniu do egzaminu
 
-Kluczowe jest zrozumienie różnicy między środowiskiem pracy podczas semestru a weryfikacją wiedzy:
+Kluczowe jest rozróżnienie między **fazą nauki** a **fazą weryfikacji**:
 
-* **Egzamin końcowy**: Ma formę **pisemną, stacjonarną i odbywa się bez dostępu do technologii**. Podczas egzaminu nie będziesz mieć dostępu do komputera, telefonu ani systemów AI.
-* **Cel notatek**: Twoje repozytorium służy do nauki. Musisz przygotować, przeczytać i zrozumieć zawarte w nim rozwiązania teraz, aby być w stanie samodzielnie odtworzyć tok rozumowania na sali egzaminacyjnej.
+* **Cel notatnika**: Obszerne notatki, które tutaj przygotujesz, są Twoim głównym materiałem do nauki. Musisz je stworzyć, przeczytać i dogłębnie zrozumieć *teraz*, aby móc odtworzyć logikę *później* bez pomocy technologii.
+* **Weryfikacja**: Testy i egzaminy zostaną przeprowadzone w celu zweryfikowania Twojej wiedzy. Szczegółowe harmonogramy i zasady zostaną ogłoszone za pośrednictwem MS Teams.
 
-## Wykorzystanie AI do personalizacji nauki
+## Wykorzystanie AI do spersonalizowanej nauki
 
-Zdecydowanie zaleca się wykorzystanie narzędzi Generative AI (ChatGPT, Claude, Gemini) na etapie przygotowywania materiałów. Technologia ta pozwala na stworzenie **spersonalizowanych notatek**:
+Zdecydowanie zachęcamy do korzystania z narzędzi AI (ChatGPT, Claude, Gemini) w trakcie semestru do przygotowywania materiałów. AI pozwala na tworzenie **spersonalizowanych notatek** dostosowanych do Twoich konkretnych potrzeb:
 
-* **Dostosowanie**: Nie ma jednej notatki idealnej dla wszystkich. Jeśli definicja jest niezrozumiała, poproś AI o dodatkowe wyjaśnienie, rozpisanie kroków czy intuicję geometryczną. Stwórz materiał, z którego Tobie uczy się najlepiej.
-* **Efektywność**: Nie kopiuj treści ze strony HTML. Kopiuj surowy kod Markdown z plików źródłowych do promptu AI, aby zachować poprawne formatowanie matematyczne.
-* **Profesjonalizm**: Celem jest wygenerowanie kompletnej, czytelnej i merytorycznej notatki, która posłuży jako Twój osobisty podręcznik.
+* **Adaptowalność**: Jeśli standardowa definicja z podręcznika jest niejasna, poproś AI o „wyjaśnienie krok po kroku” lub „podanie intuicji geometrycznej”, aby stworzyć notatkę pasującą do Twojego stylu uczenia się.
+* **Efektywność**: Nie kopiuj treści z wyrenderowanej strony HTML. Zamiast tego **kopiuj surowy kod Markdown** z repozytorium do promptu AI, aby zachować formatowanie matematyczne.
+* **Cel**: Celem jest wygenerowanie profesjonalnych, kompleksowych notatek, które posłużą jako wysokiej jakości materiał do samodzielnej nauki.
 
-## Oczekiwania wobec zajęć i odpowiedzialność studenta
+## Oczekiwania w klasie i odpowiedzialność studenta
 
-**Wszystkie listy zadań są dostępne od pierwszego dnia semestru.** Umożliwia to wcześniejsze zaplanowanie pracy.
+**Wszystkie listy zadań są dostępne od pierwszego dnia semestru.** Pozwala to na wcześniejsze przygotowanie.
 
-* **Brak wymówek**: W dobie powszechnego dostępu do AI, argumenty typu "nie wiedziałem jak zacząć" lub "nie umiałem rozwiązać" są nieakceptowalne. Wygenerowanie bazowego rozwiązania zajmuje sekundy i można to zrobić w dowolnym miejscu (nawet na telefonie).
-* **Charakter zajęć**: Czas na zajęciach przeznaczony jest na dyskusję nad rozwiązaniami, analizę problemów i wyjaśnianie wątpliwości, a nie na rozwiązywanie zadań od zera. Oczekuje się przyjścia na zajęcia z gotowymi materiałami.
-* **Zaradność**: Budowa i utrzymanie tego repozytorium jest lekcją sumienności oraz organizacji własnego warsztatu pracy.
-
----
-
-### Dla pasjonatów technologii: Publikacja WWW (Opcjonalne)
-
-Studenci zainteresowani technologią mogą opublikować swoje notatki w formie strony internetowej przy użyciu GitHub Pages.
-
-* Służy do tego polecenie `mkdocs gh-deploy`.
-* **Zastrzeżenie**: Jest to element całkowicie dobrowolny, nie wpływa na ocenę końcową i służy wyłącznie samorozwojowi.
+* **Polityka „Zero Wymówek”**: Biorąc pod uwagę dostępność narzędzi Generatywnej AI, twierdzenie „nie wiedziałem, jak zacząć” lub „nie potrafiłem tego rozwiązać” nie jest akceptowalnym usprawiedliwieniem. Podstawowe rozwiązanie można wygenerować w kilka sekund, nawet na urządzeniu mobilnym podczas dojazdu.
+* **Nacisk na dyskusję**: Czas zajęć przeznaczony jest na omawianie rozwiązań, analizę trudności i wyjaśnianie wątpliwości — a nie na rozwiązywanie problemów od zera. Oczekuje się, że przyjdziesz z przygotowanymi materiałami.
+* **Profesjonalizm**: Budowanie i utrzymywanie tego repozytorium jest ćwiczeniem z odpowiedzialności zawodowej i zarządzania przepływem pracy.
 
 ---
 
-### Dostępne Działy
+### Dla entuzjastów technologii: Wdrożenie GitHub Pages (Opcjonalne)
 
-* **Algebra**: Macierze, wyznaczniki, układy równań.
-* **Geometria**: Wektory, proste i płaszczyzny.
-* **Analiza**: Granice, pochodne, badanie funkcji, całki.
-* **Metody Probabilistyczne**: Rachunek prawdopodobieństwa, statystyka, estymacja.
+Studenci zainteresowani technologią mogą zdecydować się na opublikowanie swoich notatek jako strony internetowej przy użyciu GitHub Pages.
 
-_Wybierz dział z menu po lewej stronie, aby rozpocząć._
+* Użyj poleceń `mkdocs build` i `mkdocs gh-deploy`, aby zbudować i hostować swoje notatki.
+* **Zastrzeżenie**: Jest to całkowicie opcjonalne i nie wpływa na ocenę. Ma na celu wyłącznie samorozwój.
+
+---
+
+_Wybierz temat z menu, aby rozpocząć._
