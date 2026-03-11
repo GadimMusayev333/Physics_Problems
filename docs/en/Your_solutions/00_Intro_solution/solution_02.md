@@ -116,7 +116,7 @@ $$
 
 Formula:
 
-$$
+ $$
 \cos\theta = \frac{\vec a \cdot \vec b}{|\vec a||\vec b|}
 $$
 
