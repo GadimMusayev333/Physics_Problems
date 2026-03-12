@@ -1,4 +1,4 @@
-Below is the **fully corrected version of Tasks 1–10** written in **Markdown with `$$` LaTeX blocks**, ready to paste directly into **Google Colab / Jupyter Notebook**.
+
 
 ---
 
