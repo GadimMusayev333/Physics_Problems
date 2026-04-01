@@ -1,0 +1,66 @@
+# Solutions: Section 3 - Waves
+
+### 1. Wave Properties
+The wave speed is given by the formula $v = f \lambda$.
+- **In Air:** $\lambda = \frac{v}{f} = \frac{343 \text{ m/s}}{440 \text{ Hz}} \approx 0.78 \text{ m}$
+- **In Water:** $\lambda = \frac{v}{f} = \frac{1482 \text{ m/s}}{440 \text{ Hz}} \approx 3.37 \text{ m}$
+
+---
+
+### 2. String Harmonics
+For the fundamental frequency ($n = 1$), the length of the string is half a wavelength: $L = \frac{\lambda}{2}$.
+- $\lambda = 2 \cdot L = 2 \cdot 0.64 \text{ m} = 1.28 \text{ m}$
+- $v = f \lambda = 330 \text{ Hz} \cdot 1.28 \text{ m} = 422.4 \text{ m/s}$
+
+---
+
+### 3. Superposition Principle
+Given $y_1 = A \sin(kx - \omega t)$ and $y_2 = A \sin(kx + \omega t)$.
+Using the identity $\sin(A-B) + \sin(A+B) = 2 \sin(A) \cos(B)$:
+- **Resulting Wave:** $y(x,t) = 2A \sin(kx) \cos(\omega t)$
+- **Nodes:** Occur where $\sin(kx) = 0$, which means $kx = n\pi$.
+- **Node Positions:** $x = \frac{n\pi}{k}$ for $n = 0, 1, 2, ...$
+
+---
+
+### 4. Phase Difference
+Phase difference $\Delta \phi$ is calculated as:
+$\Delta \phi = \frac{2\pi}{\lambda} \cdot \Delta x$
+- Given $\Delta x = \frac{\lambda}{3}$:
+- $\Delta \phi = \frac{2\pi}{\lambda} \cdot \frac{\lambda}{3} = \frac{2\pi}{3} \text{ rad}$
+
+---
+
+### 5. Echo Ranging
+The sound travels to the cliff and back ($2d$).
+- $2d = v \cdot t$
+- $d = \frac{343 \text{ m/s} \cdot 1 \text{ s}}{2} = 171.5 \text{ m}$
+
+---
+
+### 6. Wave Equation
+Given $y(x,t) = 0.05 \sin(2\pi x - 50\pi t)$:
+- **Amplitude:** $A = 0.05 \text{ m}$
+- **Wavelength:** $k = 2\pi \Rightarrow \lambda = \frac{2\pi}{k} = 1 \text{ m}$
+- **Frequency:** $\omega = 50\pi \Rightarrow f = \frac{\omega}{2\pi} = 25 \text{ Hz}$
+- **Speed:** $v = f \lambda = 25 \text{ m/s}$
+
+---
+
+### 7. Standing Wave Modes
+For 4 antinodes on a string fixed at both ends, $L = 2\lambda$:
+- $0.80 \text{ m} = 2\lambda$
+- $\lambda = 0.40 \text{ m}$
+
+---
+
+### 8. Traveling Waves
+A traveling wave must satisfy $y(x,t) = f(x \pm vt)$.
+- **a)** $A \cos(kx^2 - \omega t)$: **No** (nonlinear in $x$).
+- **b)** $A(x - vt)^2$: **Yes** (matches form $f(x-vt)$).
+- **c)** $A \log(x + vt)$: **Yes** (matches form $f(x+vt)$).
+---
+
+![alt text](images/your_image.png)
+## colab 
+   [problem](https://colab.research.google.com/drive/11P1lymcfFFfofseBauwDwxRBbWmhnkkq?usp=sharing)
