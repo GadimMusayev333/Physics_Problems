@@ -102,3 +102,29 @@ $$u(\vec{r}, t) = \sum_{i} \frac{A}{|\vec{r} - \vec{r}_{0,i}|^\alpha} \sin(k|\ve
 
 **Visual Analysis:**
 The interference pattern creates "fringes" or regions of high and low intensity. In the provided simulation, the bright areas represent constructive interference, while the dark areas represent destructive interference.
+
+### 11. Animation: Two-Slit Interference
+
+![Sönümlü Osilatör](images/waves.png)
+
+### 11. Double-Slit Interference (Young's Experiment)
+
+Double-slit interference occurs when light or sound waves pass through two closely spaced slits, acting as coherent sources. The waves overlap on a screen, creating an interference pattern of bright and dark fringes.
+
+The position of the fringes on a distant screen is determined by the path difference $\Delta L$:
+$$\Delta L = d \sin(\theta)$$
+
+#### Key Formulas:
+1. **Constructive Interference (Bright Fringes):**
+   Occurs when the path difference is an integer multiple of the wavelength:
+   $$d \sin(\theta) = n\lambda, \quad n = 0, 1, 2, \dots$$
+2. **Destructive Interference (Dark Fringes):**
+   Occurs when the path difference is a half-integer multiple of the wavelength:
+   $$d \sin(\theta) = (n + \frac{1}{2})\lambda, \quad n = 0, 1, 2, \dots$$
+
+For small angles, the distance $y_n$ of the $n$-th bright fringe from the center is:
+$$y_n \approx \frac{n\lambda L}{d}$$
+where $L$ is the distance to the screen and $d$ is the separation between slits.
+
+**Simulation Insights:**
+Increasing the slit separation $d$ results in more closely spaced fringes, while increasing the wavelength $\lambda$ spreads the fringes further apart.
