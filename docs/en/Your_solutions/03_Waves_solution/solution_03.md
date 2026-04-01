@@ -59,3 +59,7 @@ A traveling wave must satisfy $y(x,t) = f(x \pm vt)$.
 - **a)** $A \cos(kx^2 - \omega t)$: **No** (nonlinear in $x$).
 - **b)** $A(x - vt)^2$: **Yes** (matches form $f(x-vt)$).
 - **c)** $A \log(x + vt)$: **Yes** (matches form $f(x+vt)$).
+
+### 9. Damped oscillator
+
+![Sönümlü Osilatör](images/damped_oscillator.png)
