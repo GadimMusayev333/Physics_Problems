@@ -63,3 +63,22 @@ A traveling wave must satisfy $y(x,t) = f(x \pm vt)$.
 ### 9. Damped oscillator
 
 ![Sönümlü Osilatör](images/damped_oscillator.png)
+
+### 9. Damped Harmonic Oscillator
+
+The motion of a damped system depends on the relationship between the damping coefficient $b$ and the natural frequency of the system $\omega_0$. The equation of motion is given by:
+
+$$m \frac{d^2x}{dt^2} + b \frac{dx}{dt} + kx = 0$$
+
+Based on the uploaded graph, there are three distinct damping regimes:
+
+1. **Underdamped:** $b^2 < 4mk$
+   - The system oscillates around the equilibrium position with an amplitude that decays over time.
+2. **Critically Damped:** $b^2 = 4mk$
+   - The system returns to equilibrium as quickly as possible without oscillating.
+3. **Overdamped:** $b^2 > 4mk$
+   - The system does not oscillate, but due to high resistance, it takes a long time to return to equilibrium.
+
+**Graph Analysis:**
+- **Left Graph (Position vs Time):** Shows how the position decays over time according to $x(t) = A e^{-\gamma t} \cos(\omega t + \phi)$.
+- **Right Graph (Phase Portrait):** Illustrates the relationship between velocity $v$ and position $x$. The inward spiral indicates the loss of energy as the system approaches equilibrium.
